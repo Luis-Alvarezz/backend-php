@@ -1,0 +1,16 @@
+{
+    "name": "vendor/proyecto",
+    "description": "CRUD with PHP, installing package with Composer",
+    "type": "proyect",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis-Alvarezz",
+            "email": "luisangelug10@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^6.10"
+    }
+}
