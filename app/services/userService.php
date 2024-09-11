@@ -6,11 +6,11 @@
 
     // Constructor:
     public function __construct(userRepository $userRepository) {
-      $this->userRepository;
+      $this->userRepository = $userRepository;
     }
 
     public function createuser($data) {
-      $user = new User();
+      $user = new user();
       $user->nombre = $data['nombre'];
       $user->apaterno = $data['apaterno'];
       $user->amaterno = $data['amaterno'];

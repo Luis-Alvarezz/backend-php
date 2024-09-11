@@ -1,5 +1,5 @@
 <?php
-  // Campos para la Base de Datos:
+  // Campos que imita la abstracción de la Base de Datos:
   Class user {
     public $id;
     public $nombre;
